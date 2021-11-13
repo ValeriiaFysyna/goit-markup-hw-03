@@ -27,6 +27,9 @@ button {
     cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -501,6 +504,10 @@ button {
   border-top: none;
 }
 
+.work-examples:hover{
+  text-decoration: underline;
+}
+
 .work-example-name {
   color: var(--general_text_color);
   font-family: Roboto;
@@ -513,6 +520,7 @@ button {
   margin-top: 20px;
   margin-bottom: 4px;
   padding: 0 24px 0 24px;
+
   }
 
 .work-example-type {
@@ -525,4 +533,5 @@ button {
   letter-spacing: 0.03em;
 
   padding: 0 24px 20px 24px;
+
 }
