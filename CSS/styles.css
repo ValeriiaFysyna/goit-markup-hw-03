@@ -192,8 +192,7 @@ a {
   max-width: 1600px;
   margin: 0 auto;
   padding-top: 0;
-  padding-bottom: 0;
-
+  padding-bottom: 210px;
   }
 
 .hero-title {
@@ -227,9 +226,6 @@ a {
   
     }
 
-    .hero-section-button {
-      padding-bottom: 210px;
-    }
 
 
     /*feautures section*/
@@ -506,7 +502,7 @@ a {
 
 .work-examples:hover{
   text-decoration: underline;
-  
+
   }
 
 .work-example-name {
