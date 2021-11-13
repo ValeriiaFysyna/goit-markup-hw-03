@@ -179,12 +179,16 @@ a {
 
 /*hero section*/
 
-.hero-section-main {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: wrap;
+.hero-section{
+  padding: 94px 0 94px 0;
 }
+
+.hero-section-main {
+    width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    }
 
 .hero-section {
   background-color: var(--background_color);
@@ -193,6 +197,7 @@ a {
   margin: 0 auto;
   padding-top: 0;
   padding-bottom: 210px;
+  padding-top: 200px ;
   }
 
 .hero-title {
@@ -204,10 +209,9 @@ a {
     vertical-align: top;
     letter-spacing: 0.06em;
 
-    flex-grow: 1;
-
-    padding: 200px 452px 0 452px;
     margin-bottom: 20px;
+    margin-right: 0 ;
+    padding: 0 452px 0 452px ;
     }
 
   .button {
@@ -222,11 +226,8 @@ a {
     border-radius:7px;
     cursor: pointer;
     
-    padding: 10px 32px;
-  
+    padding: 10px 32px 10px 32px;  
     }
-
-
 
     /*feautures section*/
     
@@ -368,10 +369,11 @@ a {
 
 .footer {
     background-color:var(--background_color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-container {
-    padding-top: 60px;
 }
 
 .logo-footer {
@@ -381,7 +383,7 @@ a {
     font-size: 26px;
     line-height: 31px;
     text-decoration: none;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -395,7 +397,6 @@ a {
     color: #ffffff;
 }
 .adress a {
-    display: block;
     font-family: roboto;
     font-style: normal;
     font-weight: 400;
@@ -404,19 +405,19 @@ a {
     text-decoration: none;
 }
 
+.adress-item:not(:last-child) {
+  margin-bottom: 9px;
+
+}
+
 .map {
     color: #ffffff;
-        padding-top: 20px;
+
 }
 
 .mailto,
 .tel {
     color: rgba(255, 255, 255, 0.6);
-    padding-top: 9px;
-}
-
-.tel {
-  padding-bottom: 60px;
 }
 
 .mailto:hover,
@@ -434,7 +435,7 @@ a {
 .portfolio-filter {
   display: flex;
   margin: 0 auto;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
   
 }
@@ -485,8 +486,7 @@ a {
 .work-examples-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-bottom: -30px;
+
 }
 
 .work-examples {
@@ -505,6 +505,17 @@ a {
 
   }
 
+  .work-examples:nth-child(3n+1){
+    margin-left: 0;
+  }
+
+  .work-examples:nth-child(1n+7){
+    margin-bottom: 0;
+  }
+
+  .work-examples-button {
+    display: block;
+  }
 .work-example-name {
   color: var(--general_text_color);
   font-family: Roboto;
@@ -516,7 +527,6 @@ a {
 
   margin-top: 20px;
   margin-bottom: 4px;
-  padding: 0 24px 0 24px;
 
   }
 
@@ -529,6 +539,10 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
 
-  padding: 0 24px 20px 24px;
+}
 
+.work-example-description {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
