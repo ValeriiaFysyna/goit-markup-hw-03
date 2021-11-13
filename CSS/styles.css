@@ -506,7 +506,8 @@ a {
 
 .work-examples:hover{
   text-decoration: underline;
-}
+  
+  }
 
 .work-example-name {
   color: var(--general_text_color);
