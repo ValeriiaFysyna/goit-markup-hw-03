@@ -371,12 +371,14 @@ a {
     background-color:var(--background_color);
     padding-top: 60px;
     padding-bottom: 60px;
+
 }
 
 .footer-container {
 }
 
 .logo-footer {
+    display: block;
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
@@ -384,17 +386,17 @@ a {
     line-height: 31px;
     text-decoration: none;
     margin-bottom: 20px;
-
 }
+
 
 .web-footer-first-part {
     color: var(--links_and_buttons_color);
-    margin-right: -6px;
-
+    
 }
 
 .web-footer-second-part {
     color: #ffffff;
+
 }
 .adress a {
     font-family: roboto;
