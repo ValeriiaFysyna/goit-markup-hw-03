@@ -40,6 +40,7 @@ a {
 .body {
     font-family: roboto, sans-serif;
     padding-left: 0; 
+
     background-color: var(--white_color);
 
 }
@@ -65,19 +66,20 @@ a {
   margin: 0 auto;
   padding-left: 32px;
   padding-right: 32px;
-  border-bottom: 1px solid #ececec;
-}
+
+  }
 
 .header {
+
     background-color: var(--white_color);
     text-align: center;
     margin: 0 auto;
+    border-bottom: 1px solid #ececec;
 }
 
 .header-list {
     display: block;
     display: flex;
-
 }
 
 
@@ -184,7 +186,7 @@ a {
 }
 
 .hero-section-main {
-    width: 1600px;
+
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
